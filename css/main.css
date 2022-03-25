@@ -47,7 +47,22 @@ body {
     position: absolute;
     top: -10px;
     left: -10px
+}
 
+.main > .column:nth-child(1) .number{
+    color: #6DC1C8
+}
+
+.main > .column:nth-child(2) .number{
+    color: #4074BD;
+}
+
+.main > .column:nth-child(3) .number{
+    color: #E05E46;
+}
+
+.main > .column:nth-child(4) .number{
+    color: #919191;
 }
 
 .number-icon > .icon {
@@ -59,5 +74,20 @@ body {
     margin:10px;
     margin-left: (144px - 115px);
     border-radius: 5px;
-    
+}
+
+.main > .column:nth-child(1) .icon {
+    background-color: #6DC1C8
+}
+
+.main > .column:nth-child(2) .icon {
+    background-color: #4074BD;
+}
+
+.main > .column:nth-child(3) .icon {
+    background-color: #E05E46;
+}
+
+.main > .column:nth-child(4) .icon {
+    background-color: #919191;
 }
